@@ -1,0 +1,424 @@
+﻿
+body {
+    direction: rtl;
+    background-image: url('../pictures/background.jpeg');
+}
+
+/*הגדרות כלליות*/
+
+p {
+    width: 550px;
+}
+
+/*breadcrumbs*/
+
+ul.breadcrumbs {
+    list-style: none;
+    width: 150px;
+    position: relative;
+    top: 190px;
+    display: inline;
+    left: 1032px;
+}
+
+    ul.breadcrumbs li {
+        display: inline;
+    }
+
+        ul.breadcrumbs li + li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+        }
+
+        ul.breadcrumbs li a {
+            color: #697A6A;
+            text-decoration: none;
+        }
+
+            ul.breadcrumbs li a:hover {
+                color: #8AA08B;
+                text-decoration: underline;
+            }
+.active {
+    background-color: #F2F2F2;
+}
+
+
+/*תמונת לוגו בניווט*/
+#logo {
+    height: 143px;
+    width: 93px;
+    position: relative;
+    bottom: 26px;
+    right: 29px;
+    display: inline-block;
+}
+
+
+
+h1, h2,h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    height: 400px;
+    background-image: url('../pictures/background.picture.jpg');
+    background-repeat: no-repeat;
+}
+
+.notallowed {
+    cursor: not-allowed;
+}
+/*navigation bar*/
+nav ul {
+    position: relative;
+    list-style-type: none;
+    margin-right: 285px;
+    bottom: 139px;
+}
+
+
+nav li {
+    float: right;
+    
+}
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        display: inline-block;
+        float: right;
+        color: #4d594e;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        right: 100px;
+    }
+
+        nav li a:hover:not(.active) {
+            background-color: #8AA08B;
+            color: white;
+        }
+
+
+/*homepage*/
+
+#mainhome {
+    width: 100%;
+    height: auto;
+}
+.all {
+    width: 300px;
+    height: 300px;
+}
+a {
+    font-size: 14pt;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+}
+a:hover {
+    color: burlywood;
+}
+#tag h1 {
+    position: relative;
+    top: 306px;
+    left: 421px;
+    color: #4e8f74;
+    font-size: 22pt;
+    height: 50px;
+}
+
+#info {
+    bottom: 246px;
+    right: 267px;
+}
+#info2 {
+    bottom: 244px;
+    right: 249px;
+}
+#info3 {
+    bottom: 246px;
+    right: 256px;
+}
+
+#first {
+    position: relative;
+    right: 1005px;
+    top: 33px;
+    border-radius: 11px;
+}
+
+#second {
+    position: relative;
+    bottom: 266px;
+    right: 80px;
+    border-radius: 11px;
+}
+
+#third {
+    position: relative;
+    bottom: 268px;
+    right: 17px;
+    border-radius: 11px;
+}
+
+#center {
+    font-size: 19pt;
+    font-family: 'Varela Round', sans-serif;
+    padding-right: 484px;
+    padding-top: 125px;
+    color: #4d8e6e;
+}
+#routine {
+    font-size: 18pt;
+    color:#4d594e;
+    position: relative;
+    bottom: 115px;
+    padding-right:177px;
+}
+
+/*#end{
+    display:inline-block;
+}*/
+#soap {
+    position: relative;
+    right: 306px;
+    bottom: 76px;
+}
+
+#soapp {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14pt;
+    position: relative;
+    right: 319px;
+    bottom: 75px;
+}
+#mask {
+    position: relative;
+    right: 622px;
+    bottom: 263px;
+}
+#maskk {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14pt;
+    position: relative;
+    right: 647px;
+    bottom: 261px;
+}
+#cream {
+    position: relative;
+    right: 908px;
+    bottom: 376px;
+}
+    #creamm {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14pt;
+    position: relative;
+    right: 960px;
+    bottom: 375px;
+}
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: #D5E3D4;
+    margin-top:75px;
+    height: 190px;
+    position:relative;
+
+}
+
+.linksfooter ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.linksfooter li a {
+    display: block;
+    color: #4d594e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    border-right: 1px solid #bbb;
+    margin-top: 71px;
+    right: 602px;
+}
+
+
+    .linksfooter li a:hover {
+        background-color: #8AA08B;
+        color: white;
+    }
+
+footer p {
+    font-size: 20px;
+    color: #59685a;
+    padding-right: 530px;
+    position: relative;
+    top: 50px;
+}
+
+
+/*logos */
+
+.logos {
+    padding-right: 669px;
+}
+
+.logos a{
+    text-decoration:none;
+}
+
+    .logos img:hover {
+        opacity: 0.4;
+    }
+
+/*//about//*/
+#may img {
+    position: relative;
+    bottom: 17px;
+    right: 37px;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+#hadar img {
+    position: relative;
+    bottom: 238px;
+    right: 384px;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+}
+
+#may h3 {
+    position: relative;
+    right: 100px;
+}
+#hadar h3 {
+    position: relative;
+    right: 449px;
+    bottom: 221px;
+}
+
+
+#myabout {
+    width: 300px;
+    height: 150px;
+}
+
+
+#about {
+    position: relative;
+    padding-right: 480px;
+    font-family: 'Varela Round', sans-serif;
+    width: 300px;
+    top: 50px;
+    color: #59685a;
+}
+
+
+
+    #about h1 {
+        position: relative;
+        padding-right: 173px;
+        font-size: 18px;
+        width: 301px;
+        padding-bottom:50px;
+    }
+
+    #about h2 {
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+
+#hitLOGO img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 145px;
+    bottom: 228px;
+}
+
+#hitLOGO img:hover{
+    opacity:0.4;
+
+}
+
+
+/*//contact//*/
+
+ul.breadcrumbs {
+    list-style: none;
+    width: 150px;
+    position: relative;
+    top: 243px;
+    display: inline;
+    left: 943px;
+}
+
+#myul li {
+    list-style-image: url('../pictures/ulstyle.jpeg');
+}
+
+#myul a {
+    font-size: 16px;
+    color: #59685a;
+}
+
+#firstpag {
+    width: 300px;
+    height: 150px;
+}
+
+#con {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    color: #59685a;
+    padding-top: 18px;
+}
+#tent {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+  }
+
+#send {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14pt;
+}
+
+label {
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.contactUs{
+    position:relative;
+    right:600px
+}
+
+
+
+#map table td{
+    padding-right:72px;
+}
+
+#map h1 {
+    color: #8aa08b;
+    font-size: 22px;
+    padding-top: 84px;
+    padding-right: 71px;
+}
+

@@ -1,0 +1,413 @@
+﻿body {
+    direction: rtl;
+    background-image: url('../pictures/background.jpeg');
+}
+
+/*הגדרות כלליות*/
+
+p {
+    width: 550px;
+}
+#downpage{
+    padding-top:30px;
+}
+
+/*breadcrumbs*/
+ul.breadcrumbs {
+    list-style: none;
+    width: 150px;
+    position: relative;
+    top: 243px;
+    display: inline;
+    left: 943px;
+}
+
+    ul.breadcrumbs li {
+        display: inline;
+    }
+
+        ul.breadcrumbs li + li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+        }
+
+        ul.breadcrumbs li a {
+            color: #697A6A;
+            text-decoration: none;
+        }
+
+            ul.breadcrumbs li a:hover {
+                color: #8AA08B;
+                text-decoration: underline;
+            }
+
+a {
+    font-size: 14pt;
+    font-family: 'Varela Round', sans-serif;
+    position: relative;
+}
+
+.active {
+    background-color: #F2F2F2;
+}
+
+
+/*תמונת לוגו בניווט*/
+#logo {
+    height: 143px;
+    width: 93px;
+    position: relative;
+    bottom: 26px;
+    right: 29px;
+    display: inline-block;
+}
+
+
+
+
+header {
+    height: 400px;
+    background-image: url('../pictures/background.picture.jpg');
+    background-repeat: no-repeat;
+}
+
+.notallowed {
+    cursor: not-allowed;
+}
+/*navigation bar*/
+nav ul {
+    position: relative;
+    list-style-type: none;
+    margin-right: 285px;
+    bottom: 139px;
+}
+
+}
+
+nav li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        display: inline-block;
+        float: right;
+        color: #4d594e;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+        right: 100px;
+    }
+
+        nav li a:hover:not(.active) {
+            background-color: #8AA08B;
+            color: white;
+        }
+
+
+/*       ////////////////////////////////////////// //skin
+*/
+
+h1 .skin0 {
+    font-size: 16px;
+    color: #4e8f74;
+}
+
+div .skin0 {
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .skin1 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .skin2 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .skin3 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .skin4 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .skin5 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.skin1 ul li {
+    list-style-image: url('../pictures/list.jpg');
+}
+
+.skin, h2, h3, h4 {
+    font-family: 'Varela Round', sans-serif;
+    color: #8aa08b;   
+}
+
+    .skin h1 {
+        padding-top: 50px;
+    }
+
+.skin {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+strong {
+    padding-right: 23px;
+}
+
+
+/*////////////////////////////////hairremovel///////////////////////
+
+*/
+.marker {
+    list-style-image: url('../pictures/list.jpg');
+}
+
+
+div .hairremove0 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .hairremove1 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .hairremove2 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+div .hairremove3 {
+    position: relative;
+    padding-right: 382px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.hairremove0 h1 {
+    padding-top: 50px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #D5E3D4;
+    margin-top: 73px;
+    height: 190px;
+    color:#4d594e;
+}
+
+.linksfooter ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.linksfooter li a {
+    display: block;
+    color: #4d594e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    float: right;
+    border-right: 1px solid #bbb;
+    margin-top: 71px;
+    right: 585px;
+    position: relative;
+}
+
+
+    .linksfooter li a:hover {
+        background-color: #8AA08B;
+        color: white;
+    }
+
+footer p {
+    font-size: 20px;
+    color: #59685a;
+    padding-right: 516px;
+    position: relative;
+    top: 47px;
+}
+
+
+/*logos */
+
+.logos {
+    padding-right: 664px;
+    position: relative;
+    top: 7px;
+}
+    .logos a {
+        text-decoration: none;
+    }
+
+    .logos img:hover {
+        opacity: 0.4;
+    }
+
+
+
+/*////////////////////////////////////////////////גלריה*/
+
+.gallery * {
+    box-sizing: border-box;
+}
+
+.gallery .mygallery img {
+    width: 473px;
+    height: 283px;
+    position: relative;
+    right: 505px;
+}
+
+.img {
+    width: 353px;
+    height: 243px;
+}
+
+.gallery {
+    position: relative;
+    background-color: #bccabd;
+    border: solid white 1px;
+    top: 42px;
+}
+
+.mygallery{
+    display:none;
+}
+
+.nail {
+    cursor: pointer;
+}
+
+/*//// הגדרות חצים
+*/
+.prev, .next {
+    cursor: pointer;
+    bottom: 124px;
+    padding: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    right: 465px;
+}
+
+
+.next {
+    right: 956px;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover,   .next:hover {
+        background-color: #F2F2F2;
+    }
+
+
+
+.row img {
+    width: 198px;
+    height: 97px;
+}
+
+
+.numbertext {
+    color: black;
+    font-size: 16px;
+    padding: 8px 733px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.titlepic {
+    text-align: center;
+    background-color:#F2F2F2;
+    padding: 2px 16px;
+    color: black;
+}
+
+#title {
+    position: relative;
+    right: 444px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.thumb {
+    opacity: 0.6;
+}
+
+    .active, .thumb:hover {
+        opacity: 1;
+
+    }
+
+.row {
+    position: relative;
+    left: 118px;
+    padding: 39px;
+}
+
+
+.atributtion {
+    font-size: 6pt;
+    color: black;
+    padding-right: 29px;
+}
